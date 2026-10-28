@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Background and Links</title>
+
+    <style>
+
+        body {
+    background-image: url("background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.box {
+    background-image: url("pattern.jpeg");
+    background-repeat: repeat;
+    padding: 30px;
+    margin: 30px;
+    border: 2px solid black;
+}
+.nav{
+    color:aquamarine;
+}
+        /* Link styles */
+        a:link {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: plum;
+        }
+
+        a:active {
+            color: red;
+        }
+
+        a:hover {
+            color: green;
+            text-decoration: underline;
+        }
+        .name{
+            color:white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Background and Links</h1>
+
+    <div class="box">
+        <h2>Background Repeat Example</h2>
+        <p>This box uses a repeating background image.</p>
+    </div>
+
+    <h2 class="nav">CSS Link Examples</h2>
+
+    <p><a href="https://www.google.com">Visit Google</a></p>
+    <p><a href="https://www.wikipedia.org">Visit Wikipedia</a></p>
+    <p class="name">
+        Chhavi Manglik
+    </p>
+
+</body>
+</html>
